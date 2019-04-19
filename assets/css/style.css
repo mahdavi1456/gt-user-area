@@ -1,0 +1,161 @@
+.full-page{
+	padding: 50px 0;
+}
+.w55{
+	width: 55%;
+	margin: auto;
+}
+.pdtb0{ padding: 10px 0; }
+.g-recaptcha > div{
+	margin: auto;
+}
+/* global */
+#set-email-result{ color: #fff; }
+input[name="profile-file"]{ display: none; }
+.mar0{ margin: 0; }
+.marb0{	margin-bottom: 0!important; }
+.center{ text-align: center; }
+.error{ }
+.red{ color: red; }
+.green{ color: green; }
+/* end global */
+.alert{ text-align: center; font-size: 14px; }
+.profile-tabs{
+	margin-bottom: 20px;
+	background: #33c0c4;
+	border-radius: 10px;
+	padding: 3px 0;
+}
+.profile-tabs li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+.profile-tabs li a{
+	padding: 20px 35px;
+	display: block;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff!important;
+	background: #33b7bb;
+}
+.profile-tabs li:last-child a{ border-bottom: 0; }
+.profile-tabs li a:hover{ background: #34999c; color: #fff!important; }
+.profile-tabs li:hover a{ color: #fff!important; }
+.profile-tabs .active{
+    background: #34999c;
+}
+.profile-tabs .active a{
+    background: #34999c;
+}
+.avatar-wrap{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background: #33c0c4;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.avatar-wrap button{
+	background: #27ae60;
+	color: #fff;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 4px;
+	border-bottom: 2px solid #196d3d;
+	font-size: 12px;
+}
+#upload-avatar-form input[name="avatar"]{ display: none; }
+#avatar-img{
+	text-align: center;
+	width: 120px; height: auto; margin: 10px auto;
+	position: relative; overflow-y: hidden;
+}
+#avatar-img .overly{
+	position: absolute; width: 120px; border-radius: 50%;
+	height: 120px; background: rgba(0,0,0,0); top: 0; cursor: pointer; text-align: center;
+	transition: 0.2s; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s;
+}
+#avatar-img:hover .overly{ background: rgba(0,0,0,0.7);
+	transition: 0.2s; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s;
+}
+#avatar-img:hover h5{
+	opacity: 1;
+	transition: 0.2s; -webkit-transition: 0.2s;
+	-moz-transition: 0.2s; -o-transition: 0.2s;
+}
+.av_img img{	width: 120px; height: 120px; background: #fff; border-radius: 50%; margin-bottom: 10px!important;}
+#avatar-img h5{ position: relative; top: 40%;
+	font-weight: 100; opacity: 0; color: #fff;
+	transition: 0.2s; -webkit-transition: 0.2s;
+	-moz-transition: 0.2s; -o-transition: 0.2s;
+}
+.cart-table{
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  text-align: center;
+}
+.cart-table .badge{
+	font-size: 12px;
+}
+.cart-table a, .cart-table i{ color: #d71515!important; }
+.cart-table a:hover, .cart-table i:hover{ color: #ce0000!important; }
+.cart-table i{ font-size: 16px; }
+.cart-table th{
+	border: 1px solid #eee;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+	background: #eee;
+	font-weight: bold;
+}
+.cart-table tr{ border: 1px solid #eee; }
+.cart-table td{ border: 1px solid #eee; padding: 10px; vertical-align: middle; }
+.cart-table img{ width: 80px; height: auto; margin: auto; }
+.cart-table #checkout-cart, .cart-table button{
+	background: #0ee067;
+	color: #fff;
+	border: 0;
+	font-size: 13px;
+	padding: 10px 12px;
+	border-bottom: 3px solid #05b951;
+	border-radius: 4px;
+}
+.cart-table #checkout-cart:hover, .cart-table button:hover{ background: #05b951; }
+.cart-table #checkout-cart i { color: #05b951!important; }
+.cart-table #checkout-cart:hover i{ color: #fff!important; }
+.remove-from-cart, #add-to-cart{ cursor: pointer; }
+#pay-table{	border: 1px solid #ddd; margin: auto; text-align: center; }
+#pay-table td{ padding: 10px; vertical-align: middle; border: 1px solid #eee; }
+.pay-icon{ cursor: pointer;
+	transition: 0.2s; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s;
+}
+.gray{ opacity: 0.2;
+	transition: 0.2s; -webkit-transition: 0.2s; -moz-transition: 0.2s; -o-transition: 0.2s;
+}
+/* profile */
+.tab-content{ width: 95%; margin: 2.5%; }
+/* end profile */
+
+#pay-order-form{
+	display: none;
+}
+.hide{
+	display: none;
+}
+@media only screen and (max-width: 480px){
+	.profile-tabs li{
+		list-style: none;
+		display: block!important;
+		margin: 10px;
+	}
+	.profile-tabs li a{
+		padding: 10px 15px;
+		display: block;
+		font-size: 14px;
+		border-radius: 4px;
+		color: #fff!important;
+		background: #33b7bb;
+	}
+}
